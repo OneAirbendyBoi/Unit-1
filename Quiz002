@@ -1,0 +1,21 @@
+def quiz2(a, b, c):
+    if b<a>c:
+        if b>c:
+            x = a - c
+            return x
+        else: x = a - b
+        return x
+    else:
+        if a<b>c:
+            if a>c:
+                x = b - c
+                return x
+            else: x = b - a
+            return x
+        elif b > a:
+            x = c - a
+            return x
+        else: x = c - b
+        return x
+g = quiz2(6, 9, 5)
+print(g)
